@@ -1,28 +1,18 @@
 [
   {
+    "icon": "Compass",
+    "name": "首页",
+    "link": "https://home.codesensi.cn:1443/"
+  },
+  {
     "icon": "Blog",
     "name": "博客",
-    "link": "https://blog.imsyy.top/"
-  },
-  {
-    "icon": "Cloud",
-    "name": "网盘",
-    "link": "https://pan.imsyy.top/"
-  },
-  {
-    "icon": "CompactDisc",
-    "name": "音乐",
-    "link": "https://music.imsyy.top/"
-  },
-  {
-    "icon": "Compass",
-    "name": "起始页",
-    "link": "https://nav.imsyy.top/"
+    "link": "https://halo.codesensi.cn:1443/"
   },
   {
     "icon": "Book",
-    "name": "网址集",
-    "link": "https://web.imsyy.top/"
+    "name": "导航页",
+    "link": "https://tn.codesensi.cn:1443/"
   },
   {
     "icon": "Fire",
@@ -30,8 +20,13 @@
     "link": "https://hot.imsyy.top/"
   },
   {
+    "icon": "Heart",
+    "name": "我们",
+    "link": "https://love.codesensi.cn:1443/"
+  },
+  {
     "icon": "LaptopCode",
     "name": "站点监测",
-    "link": "https://status.imsyy.top/"
+    "link": "https://status.codesensi.cn:1443/status/s"
   }
 ]
