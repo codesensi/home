@@ -2,27 +2,27 @@
   {
     "icon": "Compass",
     "name": "首页",
-    "link": "https://home.codesensi.cn:1443/"
-  },
-  {
-    "icon": "Blog",
-    "name": "博客",
-    "link": "https://halo.codesensi.cn:1443/"
+    "link": "https://home.codesensi.cn:1443"
   },
   {
     "icon": "Book",
     "name": "导航页",
-    "link": "https://tn.codesensi.cn:1443/"
+    "link": "https://tn.codesensi.cn:1443"
+  },
+  {
+    "icon": "Blog",
+    "name": "博客",
+    "link": "https://halo.codesensi.cn:1443"
   },
   {
     "icon": "Fire",
     "name": "今日热榜",
-    "link": "https://hot.imsyy.top/"
+    "link": "https://news.codesensi.cn:1443"
   },
   {
     "icon": "Heart",
     "name": "我们",
-    "link": "https://love.codesensi.cn:1443/"
+    "link": "https://love.codesensi.cn:1443"
   },
   {
     "icon": "LaptopCode",
