@@ -11,7 +11,7 @@
             -
           </span>
           {{ fullYear }}
-          <a>{{ siteAuthor }}</a>
+          <a :href="siteUrl">{{ siteAuthor }}</a>
         </span>
         <!-- 以下信息请不要修改哦 -->
         <span class="hidden">
@@ -23,9 +23,7 @@
         <!-- 站点备案 -->
         <span>
           &amp;
-          <a v-if="siteIcp" href="https://beian.miit.gov.cn" target="_blank">
-            {{ siteIcp }}
-          </a>
+          <a v-if="siteIcp" :href="siteUrl">{{ siteIcp }}</a>
         </span>
       </div>
       <div v-else class="lrc">
@@ -59,10 +57,10 @@ const siteIcp = ref(import.meta.env.VITE_SITE_ICP);
 const siteAuthor = ref(import.meta.env.VITE_SITE_AUTHOR);
 const siteUrl = computed(() => {
   const url = import.meta.env.VITE_SITE_URL;
-  if (!url) return "https://www.imsyy.top";
+  if (!url) return "https://codesensi.cn:1443";
   // 判断协议前缀
   if (!url.startsWith("http://") && !url.startsWith("https://")) {
-    return "//" + url;
+    return "https://" + url;
   }
   return url;
 });
